@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+    src: url(fontes/CenturyGothic.ttf);
+   
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+.top {
+    margin-bottom: 100px;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 400vh;
+}
+
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+header ul li a{
+    color: darkred;
+    text-decoration: none;
+    transition: 0.3s;
+}
+header ul li :hover{
+    opacity: 0.5;
+    display: inline-block;
+    transform: scale(1.1);
+}
+
+.logo{
+    color: darkred;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;  
+    align-items: center;
+    justify-content:  center;
+    text-align: center;
+}
+.logo:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    scale: 1.05;
+}
+
+header{
+
+        width: 100%;
+    padding: 40px 4%;
+}
+
+.btn-contact button{
+
+    transition: 0.3s;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-contact :hover{
+    opacity: 0.7;
+}
+
+
+section.top {
+    padding: 40px 4%;
+}
+
+section.top .flex{
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top h1{
+    color: darkred;
+    font-size: 50px;
+}
+.img-top img{
+    margin-right: 100px;
+   max-width: 400px;
+} 
+
+.txt-top p{
+font-size: 20px;
+}
+
+section.abilities{
+    padding: 40px 4%;
+    margin-bottom: 100px;
+}
+section.abilities .flex{
+    gap: 60px;
+}
+
+h2.title{
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+h2.title span{
+    color: darkred;
+    font-size: 40px;
+   
+}
+
+.abilities .abilities-box{
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+.abilities .abilities-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px rgba(139, 0, 0, 0.664);
+}
+.abilities .abilities-box img{
+max-width: 100px;
+}
+
+.abilities .abilities-box h3 {
+    margin: 15px 0;
+    font-size:25px ;
+}
+
+.abilities .abilities-box p {
+    font-size:20px ;
+}
+
+.more-about .me {
+    margin-left:100px ;
+    max-width: 400px;
+}
+
+section.more-about{
+padding: 40px 4%;
+}
+
+
+section.more-about .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.more-about .txt-more-about p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 0;
+}
+.more-about .txt-more-about p span{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 0;
+    display: block;
+}
+
+.more-about .txt-more-about h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+.more-about .txt-more-about h2 span{
+    color: darkred;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.more-about .txt-more-about .btn-social button{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: none;
+cursor: pointer;
+}
+.more-about .txt-more-about .btn-social img{
+    max-width: 60px;
+    transition: 0.3s;
+}
+.more-about .txt-more-about .btn-social img:hover{
+    transform: scale(1.2);
+}
+.more-about{
+    margin-bottom: 150px;
+}
+
+footer{
+    padding: 20px 4%;
+    box-shadow: 0 0 10px darkred;
+}
+footer .btn-social button{
+    margin-bottom: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    }
+footer .btn-social img{
+    max-width: 60px;
+     transition: 0.3s;
+}
+footer .btn-social img:hover{
+     transform: scale(1.2);
+}
+footer .logo-footer{
+    margin-bottom: 40px;
+    color: darkred;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;  
+}
+footer .logo-footer:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+footer img{
+    max-width: 25px;
+    transition: 0.3s;
+}
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .email p a{
+    color: darkred;
+    font-size: 20px;
+}
+
+footer .line-footer .email{
+    border-top: 2px solid black;
+
+    margin-bottom: 40px;
+ margin-top: 30px;   
+}
+
+section.form{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    box-shadow: 0 0 10px darkred;
+    border:none;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+form input::placeholder{
+    color: black;
+}
+form textarea::placeholder{
+    color: black;
+}
+
+form textarea{
+    resize: none;
+    max-height: 63px;
+}
+form .btn-send{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+form .btn-send input{
+    background-color: darkred;
+    color: white;
+    width: 120px;
+    transition: 0.3s;
+}
+form .btn-send input:hover{
+    transform:scale(1.1) ;
+}
